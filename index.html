@@ -34,7 +34,7 @@
     <body>
 
 		<!-- Top menu -->
-		<nav class="navbar navbar-inverse" role="navigation">
+		<nav class="navbar navbar-inverse navbar-no-bg" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
@@ -43,14 +43,18 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.html">Torneo La Peron</a>
+					<a class="navbar-brand" href="index.html">Bootstrap Registration Form Template</a>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="top-navbar-1">
 					<ul class="nav navbar-nav navbar-right">
 						<li>
 							<span class="li-text">
-								Buscanos por las redes sociales:
+								Put some text or
+							</span> 
+							<a href="#"><strong>links</strong></a> 
+							<span class="li-text">
+								here, or some icons: 
 							</span> 
 							<span class="li-social">
 								<a href="#"><i class="fa fa-facebook"></i></a> 
@@ -66,23 +70,15 @@
 
         <!-- Top content -->
         <div class="top-content">
-        	
             <div class="inner-bg">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-4 col-md-6">
-                            <img src="assets/img/logoh.png" width="150px">
-                        </div>
-                        <div class="col-sm-4 col-md-6">
-                            <img src="assets/img/logom.png" width="150px">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-4 col-md-12 form-box">
+                        
+                        <div class="col-sm-12 form-box">
                         	<div class="form-top">
                         		<div class="form-top-left">
-                        			<h3>Completa tu registro</h3>
-                            		<p>Es obligatorio completar todos los campos:</p>
+                        			<h3>Sign up now</h3>
+                            		<p>Fill in the form below to get instant access:</p>
                         		</div>
                         		<div class="form-top-right">
                         			<i class="fa fa-pencil"></i>
@@ -90,45 +86,24 @@
                             </div>
                             <div class="form-bottom">
 			                    <form role="form" action="" method="post" class="registration-form">
-			                    	
-										<div class="form-group col-sm-6">
-											<label class="sr-only" for="form-first-name">Usuario</label>
-											<input type="text" name="form-usuario" placeholder="Usuario..." class="form-first-name form-control" id="form-usuario" required>
-										</div>
-									<div class="form-group col-sm-6">
-			                        	<label class="sr-only" for="form-pass">pass</label>
-			                        	<input type="text" name="form-pass" placeholder="Contraseña..." class="form-pass form-control" id="form-pass" required>
+			                    	<div class="form-group">
+			                    		<label class="sr-only" for="form-first-name">First name</label>
+			                        	<input type="text" name="form-first-name" placeholder="First name..." class="form-first-name form-control" id="form-first-name">
 			                        </div>
-			                        <div class="form-group col-sm-6">
-			                        	<label class="sr-only" for="form-email">Nombre</label>
-			                        	<input type="text" name="form-email" placeholder="Nombre..." class="form-email form-control" id="form-email" required>
+			                        <div class="form-group">
+			                        	<label class="sr-only" for="form-last-name">Last name</label>
+			                        	<input type="text" name="form-last-name" placeholder="Last name..." class="form-last-name form-control" id="form-last-name">
 			                        </div>
-									<div class="form-group col-sm-6">
+			                        <div class="form-group">
 			                        	<label class="sr-only" for="form-email">Email</label>
-			                        	<input type="text" name="form-email" placeholder="Apellido..." class="form-email form-control" id="form-email" required>
+			                        	<input type="text" name="form-email" placeholder="Email..." class="form-email form-control" id="form-email">
 			                        </div>
-									<div class="form-group col-sm-6">
-			                        	<label class="sr-only" for="form-email">Email</label>
-			                        	<input type="text" name="form-email" placeholder="DNI..." class="form-email form-control" id="form-email" required>
+			                        <div class="form-group">
+			                        	<label class="sr-only" for="form-about-yourself">About yourself</label>
+			                        	<textarea name="form-about-yourself" placeholder="About yourself..." 
+			                        				class="form-about-yourself form-control" id="form-about-yourself"></textarea>
 			                        </div>
-									<div class="form-group col-sm-6">
-			                        	<label class="sr-only" for="form-email">Email</label>
-			                        	<input type="text" name="form-email" placeholder="Email..." class="form-email form-control" id="form-email" required>
-			                        </div>
-									<div class="form-group col-sm-6">
-			                        	<label class="sr-only" for="form-email">Email</label>
-			                        	<input type="text" name="form-email" placeholder="Obra Social..." class="form-email form-control" id="form-email" required>
-			                        </div>
-									<div class="form-group col-sm-6">
-			                        	<label class="sr-only" for="form-email">Email</label>
-			                        	<input type="text" name="form-email" placeholder="Grupo Sanguineo..." class="form-email form-control" id="form-email" required> 
-			                        </div>
-									<div class="form-group col-sm-6">
-			                        	<label class="sr-only" for="form-email">Email</label>
-			                        	<input type="text" name="form-email" placeholder="Equipo..." class="form-email form-control" id="form-email" required>
-			                        </div>
-									<hr>
-			                        <button type="submit" class="btn">Registrarme!</button>
+			                        <button type="submit" class="btn">Sign me up!</button>
 			                    </form>
 		                    </div>
                         </div>
