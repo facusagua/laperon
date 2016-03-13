@@ -21,7 +21,7 @@ class TaskController extends Controller {
 
     public function destroy($id)
 	{
-		\todo\tarea::destroy($id);
+        \todo\tarea::destroy($id);
         return redirect("/")->with('message','delete');
 	}
 
